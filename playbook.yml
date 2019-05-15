@@ -1,0 +1,9 @@
+---
+# This playbook is made for Ubuntu 14.04
+- hosts: wordpress
+
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress

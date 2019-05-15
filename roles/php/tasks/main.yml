@@ -1,0 +1,11 @@
+---
+- name: Install php extensions
+  become: 
+    true
+  apt: 
+    name={{ item }} 
+    state=present
+  loop:
+    ['php5-gd',
+    'libssh2-php']
+

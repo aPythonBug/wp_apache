@@ -1,0 +1,2 @@
+[wordpress]
+10.232.212.92	ansible_user=app ansible_python_interpreter=/usr/bin/python2.7
